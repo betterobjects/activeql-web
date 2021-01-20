@@ -875,27 +875,27 @@ hr {
 /* ==========================================================================
    Pricing Table Style
    ========================================================================== */
-#pricing {
+.cards {
   text-align: center;
 }
 
-#pricing .title {
+.cards .title {
   padding-top: 20px;
 }
 
-#pricing .title h3 {
+.cards .title h3 {
   text-transform: uppercase;
   color: #333;
   font-size: 18px;
 }
 
-#pricing .title .month-plan {
+.cards .title .month-plan {
   font-size: 16px;
   font-weight: 500;
   color: #333;
 }
 
-#pricing .table {
+.cards .table {
   margin-top: 15px;
   padding: 30px;
   border-radius: 4px;
@@ -908,7 +908,7 @@ hr {
   transition: all .3s linear;
 }
 
-#pricing .table .icon-box {
+.cards .table .icon-box {
   position: relative;
   width: 80px;
   height: 80px;
@@ -924,7 +924,7 @@ hr {
   transition: all .3s linear;
 }
 
-#pricing .table .icon-box i {
+.cards .table .icon-box i {
   color: rgb(87,202,250);
   line-height: 80px;
   font-size: 30px;
@@ -935,12 +935,12 @@ hr {
   transition: all .3s linear;
 }
 
-#pricing .table .pricing-header {
+.cards .table .pricing-header {
   position: relative;
   text-align: center;
 }
 
-#pricing .table .pricing-header .price-value {
+.cards .table .pricing-header .price-value {
   font-size: 24px;
   color: rgb(87,202,250);
   position: relative;
@@ -948,62 +948,62 @@ hr {
   font-weight: 700;
 }
 
-#pricing .table .pricing-header .price-value sup {
+.cards .table .pricing-header .price-value sup {
   font-size: 16px;
   font-weight: 500;
   top: -18px;
 }
 
-#pricing .table .pricing-header .price-value span {
+.cards .table .pricing-header .price-value span {
   font-size: 15px;
   color: #abacae;
   font-weight: 400;
 }
 
-#pricing .table .description {
+.cards .table .description {
   text-align: center;
   padding: 0px 50px;
   margin-bottom: 20px;
 }
 
-#pricing .table .description li {
+.cards .table .description li {
   font-size: 14px;
   font-weight: 400;
   color: #abacae;
   padding: 4px 0;
 }
 
-#pricing .table .description li:last-child {
+.cards .table .description li:last-child {
   border-bottom: none;
 }
 
-#pricing .table:hover {
+.cards .table:hover {
   background: #ffffff;
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
-#pricing .table:hover .icon-box {
+.cards .table:hover .icon-box {
   background: rgb(87,202,250);
 }
 
-#pricing .table:hover .icon-box i {
+.cards .table:hover .icon-box i {
   color: #fff;
 }
 
-#pricing #active-tb {
+.cards #active-tb {
   background: #ffffff;
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
-#pricing #active-tb .icon-box {
+.cards #active-tb .icon-box {
   background: rgb(87,202,250);
 }
 
-#pricing #active-tb .icon-box i {
+.cards #active-tb .icon-box i {
   color: #fff;
 }
 
-#pricing .active {
+.cards .active {
   z-index: 99999;
 }
 
