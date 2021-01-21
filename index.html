@@ -1,6 +1,15 @@
  <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-90P3CFT380"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-90P3CFT380');
+    </script>    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -132,7 +141,7 @@ npx betterobjects/activeql-generator my-activeql
               <pre class="wow fadeInRight">
                 <code>
 git clone https://github.com/betterobjects/activeql-starter.git  
-# or your forked repository
+# or preferably your forked repository
 
 # install dependencies with "npm i" in 
 # ./activeql-starter/express
@@ -157,7 +166,7 @@ entity:
   Car:
     attributes:
       licence: Key
-      brand: CarBrand                
+      brand: CarBrand!
       color: String
       mileage: Int!
               </code>
@@ -188,7 +197,7 @@ npm run start
         <h5 class="wow fadeInDown">
           Check out the 
           <a href="http://betterobjects.github.io/activeql">Documentation</a> 
-          to learn how to configure and build your API and Admin UI.
+          to learn how to configure and build your GraphQL API and Admin UI.
         </h5>    
       </div>
     </section>
@@ -215,7 +224,7 @@ npm run start
               <div class="services-content">
                 <h3><a href="#">Quick start </a></h3>
                 <p>
-                  Start developing your API and Admin UI with generated applications - up and running in under 2 minutes. 
+                  Start developing your GraphQL API and Admin UI with generated applications - up and running in under 2 minutes. 
                 </p>
               </div>
             </div>
@@ -316,8 +325,8 @@ npm run start
                 <div class="text">
                   <h4>Default CRUD operations</h4>
                   <p>
-                    Generates default mutations and UI for create, read, update,  delete of domain entity items  
-                    - incl. complex relationships between
+                    Generates default queries, mutations and generic UI for create, read, update and delete of domain entity items  
+                    - incl. complex relationships between them
                   </p>
                 </div>
               </div>
@@ -334,7 +343,7 @@ npm run start
                 <div class="text">
                   <h4>Role based permission</h4>
                   <p>
-                    Add role based permissions or restriction of data to your entities
+                    Add role based permissions or restriction of data to your entities for any API or UI user
                   </p>
                 </div>
               </div>
@@ -548,6 +557,38 @@ npm run start
               </div>
             </div>
           </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-size: xx-small;">
+                Nutzung von Google Analytics<br>
+      
+                Wir verwenden Google Analytics, um die Website-Nutzung zu analysieren. Die daraus gewonnenen Daten werden genutzt, um unsere Website sowie Werbemaßnahmen zu optimieren. <br>
+                
+                Google Analytics ist ein Webanalysedienst, der von Google Inc. (1600 Amphitheatre Parkway, Mountain View, CA 94043, United States) betrieben und bereitgestellt wird. Google verarbeitet die Daten zur Website-Nutzung in unserem Auftrag und verpflichtet sich vertraglich zu Maßnahmen, um die Vertraulichkeit der verarbeiteten Daten zu gewährleisten.<br>
+                
+                Während Ihres Website-Besuchs werden u.a. folgende Daten aufgezeichnet:<br>
+                
+                Aufgerufene Seiten<br>
+                <ul>
+                  <li>Ihr Verhalten auf den Seiten (beispielsweise Klicks, Scroll-Verhalten und Verweildauer)</li>  
+                  <li>Ihr ungefährer Standort (Land und Stadt)</li>  
+                  <li>Ihre IP-Adresse (in gekürzter Form, sodass keine eindeutige Zuordnung möglich ist)</li>  
+                  <li>Technische Informationen wie Browser, Internetanbieter, Endgerät und Bildschirmauflösung</li>  
+                  <li>Herkunftsquelle Ihres Besuchs (d.h. über welche Website bzw. über welches Werbemittel Sie zu uns gekommen sind)</li>  
+                </ul>          
+                
+                Diese Daten werden an einen Server von Google in den USA übertragen. Google beachtet dabei die Datenschutzbestimmungen des „EU-US Privacy Shield“-Abkommens.<br>
+                
+                Google Analytics speichert Cookies in Ihrem Webbrowser für die Dauer von zwei Jahren seit Ihrem letzten Besuch. Diese Cookies enthaltene eine zufallsgenerierte User-ID, mit der Sie bei zukünftigen Website-Besuchen wiedererkannt werden können.<br>
+                
+                Die aufgezeichneten Daten werden zusammen mit der zufallsgenerierten User-ID gespeichert, was die Auswertung pseudonymer Nutzerprofile ermöglicht. Diese nutzerbezogenen Daten werden automatisch nach 14 Monaten gelöscht. Sonstige Daten bleiben in aggregierter Form unbefristet gespeichert.<br>
+                
+                Sollten Sie mit der Erfassung nicht einverstanden sein, können Sie diese mit der einmaligen Installation des Browser-Add-ons zur Deaktivierung von Google Analytics unterbinden.<br>
+                
+                Quelle: traffic3.net                        
+            </div>      
+          </div>
+
         </div>  
       </div> 
     </footer> 
