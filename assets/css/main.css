@@ -1424,3 +1424,23 @@ pre {
   margin-left: 2em;
   list-style-type: circle;
 }
+
+#logo {
+  width: 50px;
+}
+
+#feature-img {
+  width: 100px;
+}
+
+#last-hr {
+  margin-bottom: 150px;
+}
+
+.ready {
+  margin-bottom: 0.3em;  
+}
+
+.widget {
+  text-align: right;
+}

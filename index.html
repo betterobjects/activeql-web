@@ -13,7 +13,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="ActiveQL - open source domain driven GraphQL API and Admin UI. The easiest way to develop a GraphQL API." />
+    <meta name="description" content="ActiveQL - open source domain driven GraphQL API and Admin UI. The easiest way to develop a GraphQL API.">
 
     <title>ActiveQL - domain driven GrapqhQL API development</title>
 
@@ -32,6 +32,11 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">    
+
   </head>
   <body>
 
@@ -41,7 +46,7 @@
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand"><img style="width: 50px;" src="assets/img/logo.png" alt=""></a>       
+          <a href="index.html" class="navbar-brand"><img id="logo" src="assets/img/logo.png" alt="Logo"></a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -103,7 +108,7 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
               <div class="intro-img">
-                <img class="img-fluid" src="assets/img/activeql.png" alt="">
+                <img class="img-fluid" src="assets/img/activeql.png" alt="ActiveQL">
               </div>            
             </div>
           </div> 
@@ -188,8 +193,8 @@ npm run start
         <h5 class="wow fadeInDown">You're ready to go!</h5>
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-6">
-            <p style="margin-bottom: 0.3em;">Your GraphQL API is up and running at <a href="http://locahost:3000/graphql">http://locahost:3000/graphql</a></p>
-            <img class="wow fadeInLeft" width="100%" src="assets/img/chrome-schema1.png" alt="">
+            <p class="ready" >Your GraphQL API is up and running at <a href="http://locahost:3000/graphql">http://locahost:3000/graphql</a></p>
+            <img class="wow fadeInLeft" width="100%" src="assets/img/chrome-schema1.png" alt="Chrome Schema">
             <hr>
             <p>              
               You can configure more enums, entities, relationships between them, seed data, permission handling and more 
@@ -197,8 +202,8 @@ npm run start
             </p>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-6">
-            <p style="margin-bottom: 0.3em;">The Admin UI is available at  <a href="http://locahost:4200">http://locahost:4200</a></p>            
-            <img class="wow fadeInRight" width="100%" src="assets/img/adminui_cars.png" alt="">
+            <p class="ready">The Admin UI is available at  <a href="http://locahost:4200">http://locahost:4200</a></p>            
+            <img class="wow fadeInRight" width="100%" src="assets/img/adminui_cars.png" alt="Admin-UI Cars">
             <hr>
             <p>
               Optionally you can use a generic Admin UI to create, read, update, delete entity items. 
@@ -364,7 +369,7 @@ npm run start
           </div>
           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
-              <img src="assets/img/logo.png" alt="">
+              <img src="assets/img/logo.png" alt="ActiveQL" id="feature-img">
             </div>
           </div>
           <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -567,8 +572,8 @@ npm run start
               <p><a href="./datenschutzbestimmungen.html">Datenschutzbestimmungen</a></p>
             </div>
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget" style="text-align: right;">
-                <h3 class="footer-logo"><img src="assets/img/logo.png" alt=""></h3>
+              <div class="widget">
+                <h3 class="footer-logo"><img src="assets/img/logo.png" alt="Logo"></h3>
               </div>
             </div>
           </div>
@@ -577,7 +582,7 @@ npm run start
     </footer> 
     <!-- Footer Section End -->
 
-    <hr style="margin-bottom: 50px;">
+    <hr id="last-hr">
 
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
