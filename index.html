@@ -120,7 +120,6 @@
     </header>
     <!-- Header Area wrapper End -->
 
-    
     <section id="getstarted" class="section-padding">
       <div class="container">
         <div class="section-header text-center">          
@@ -223,9 +222,52 @@ npm run start
     
     <!-- Features Section End -->   
 
+    <!-- About Section start -->
+    <div class="about-area section-padding bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-xs-12 info">
+            <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+              <div>
+                <div class="site-heading">
+                  <p class="mb-3">API First</p>
+                  <h2 class="section-title">Domain Driven GraphQL</h2>
+                </div>
+                <div class="content">
+                  <p>
+                    We believe <a href="">GraphQL</a> is a great way to expose your business domain to any client or 3rd party system. 
+                    We also believe that it is a good idea to follow an API 1st approach - expressing your business entities 
+                    and functionality as an API. <br>
+                    Everything else (from different user interfaces, integration with other systems to infrastructure task etc.) uses this API as a common understanding of your business domain. <br>                  
+                  </p>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+            <img class="img-fluid" src="assets/img/graphql-name.png" alt="" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12 info">
+            <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+              <div class="content">
+                <p>
+                  Implementing a GraphQL API can be a cumbersome task though. You need to decide how to structure your schema, how to handle concepts like permissions, searching, sorting, paging, how to implement resolvers that read data from and write data to a database or similar, validate input, relationships etc. And implement it with quite some repetitive code. 
+                </p>
+                <p>                   
+                  <strong>ActiveQL</strong> supports this development with a highly oppionated generation of a GraphQL schema and resolvers. You can run a GraphQL API directly from the description of a business domain (mainly entities and its relations to each other). This gives you the the freedom to concentrate on the implementation of any non-default functionality on top of that. It does not restrict you in any way how implement your API, what libraries you prefer etc.
+                </p>                
+                <a href="http://betterobjects.github.io/activeql" class="btn btn-common mt-3">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section End -->        
 
-    <hr>
-
+    
     <!-- Services Section Start -->
     <section id="framework" class="section-padding">
       <div class="container">
@@ -330,6 +372,7 @@ npm run start
     <!-- Services Section End -->
     
 
+
     <!-- Features Section Start -->
     <section id="features" class="section-padding">
       <div class="container">
@@ -368,8 +411,8 @@ npm run start
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-            <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="show-box wow fadeInUp text-center" data-wow-delay="0.3s">
               <img src="assets/img/logo.png" alt="ActiveQL" id="feature-img">
             </div>
           </div>
